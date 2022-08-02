@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main{
+    height: 100%;
+    width: 50%;
+    /* background: red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+}
+h1{
+    color: rgb(145, 3, 145);
+    font-family: arial black;
+    font-size: 40pt;
+    display: flex;
+    justify-content: center;
+}
+#maindiv{
+    /* background-color: green; */
+    /* display: inline; */
+    height: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+    input{
+    height: 80%;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    color: purple;
+    padding-left: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#button{
+    height: 60%;
+    width: 10%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    background: purple;   
+}
+#divv{
+    background-color: purple;
+    /* height: 40%; */
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column; */
+    /* overflow-y: scroll; */
+}
+.divvchild{
+    margin: 20px;
+    height: 70px;
+    width: 95%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    color: rgb(148, 31, 148);
+    padding-left: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.x{
+        height:80%;
+        width: 10%;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+        color: white;
+        background: purple;
+        display: none;
+}
+.x:hover{
+    transition: 1s;
+    background-color: rgb(44, 4, 44);
+}
