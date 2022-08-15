@@ -1,1 +1,1 @@
-Plan your Daily Schedule on our Platform
+# Plan your Daily Schedule on our Platform
